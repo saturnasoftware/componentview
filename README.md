@@ -24,10 +24,10 @@ Components are reusable; a library of basic components is included; you can exte
 Blade templates are rendered from beginning to end, in a single pass (rendering a Blade template may (or may not) require recompiling to cache).  
 
 Componentviews, on the other hand, are processed in multiple passes:  
-1) assemble - the component objects are created and connected to each other in a tree structure
-2)  load - the components interact with models and collect whatever data they need
-3)  prerender - the components interact with each other
-4)  render - the components generate Blade code 
+1) assemble - the component objects are created and connected to each other in a tree structure  
+2) load - the components interact with models and collect whatever data they need  
+3) prerender - the components interact with each other  
+4) render - the components generate Blade code 
 
 ###Not a free lunch, but a "cheap lunch"
 
